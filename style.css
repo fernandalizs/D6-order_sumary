@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e8ff;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 0.5em #9ea2a3;
+  text-align: center;
+}
+
+.container img {
+  border-radius: 12px 12px 0 0;
+  width: 350px;
+  padding: 0;
+}
+
+.caixa {
+  padding: 20px;
+}
+
+.container h2 {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.container h3 {
+  color: #1f2f56;
+  font-weight: 700;
+}
+
+.container p {
+  color: grey;
+  font-size: 16px;
+}
+
+.box {
+  height: auto;
+  width: 280px;
+  background-color: #f5f7ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 30px 0;
+  padding: 5px 15px;
+}
+
+.box img {
+  height: 50px;
+  width: 50px;
+}
+
+.box .mudar {
+  color: #3829e0;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.container button {
+  width: 280px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #3829e0;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  box-shadow: 0 10px rgb(174 186 255);
+}
+
+.Cancelamento {
+  font-weight: 700;
+}
