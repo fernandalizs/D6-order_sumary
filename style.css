@@ -51,14 +51,31 @@ main {
 }
 
 .box {
-  height: auto;
+  height: 80px;
   width: 280px;
   background-color: #f5f7ff;
   border-radius: 8px;
   display: flex;
-  align-items: center;
   margin: 0 0 30px 0;
   padding: 5px 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.texto {
+  width: 200px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 15px;
+}
+
+.texto h3 {
+  margin: 4px 0 0 0;
+}
+
+.texto p {
+  margin: 6px 0 0 0;
 }
 
 .box img {
@@ -80,9 +97,10 @@ main {
   color: white;
   font-weight: 700;
   border: 0;
-  box-shadow: 0 10px rgb(174 186 255);
+  box-shadow: 0px 10px 8px #dddaf7;
 }
 
-.Cancelamento {
+.caixa .Cancelamento {
   font-weight: 700;
+  font-size: 14px;
 }
