@@ -14,7 +14,7 @@ main {
   align-items: center;
   justify-content: center;
   background-color: #e0e8ff;
-  background-image: url("./images/pattern-background-desktop.svg");
+  background-image: url("https://raw.githubusercontent.com/fernandalizs/D6-order_sumary/472b8ee071f2461767cd4778e0278c150563e3f0/images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -127,7 +127,7 @@ button:hover {
 @media (max-width: 720px) {
   main {
     background-color: #e0e8ff;
-    background-image: url("./images/pattern-background-mobile.svg");
+    background-image: url("https://raw.githubusercontent.com/fernandalizs/D6-order_sumary/472b8ee071f2461767cd4778e0278c150563e3f0/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
