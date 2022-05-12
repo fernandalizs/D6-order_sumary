@@ -14,6 +14,9 @@ main {
   align-items: center;
   justify-content: center;
   background-color: #e0e8ff;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .container {
@@ -87,6 +90,12 @@ main {
   color: #3829e0;
   font-size: 14px;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.mudar:hover {
+  color: #766cf1;
+  text-decoration: none;
 }
 
 .container button {
@@ -98,9 +107,19 @@ main {
   font-weight: 700;
   border: 0;
   box-shadow: 0px 10px 8px #dddaf7;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #766cf1;
 }
 
 .caixa .Cancelamento {
   font-weight: 700;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.Cancelamento:hover {
+  color: #252e55;
 }
