@@ -14,7 +14,7 @@ main {
   align-items: center;
   justify-content: center;
   background-color: #e0e8ff;
-  background-image: url("/images/pattern-background-desktop.svg");
+  background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -122,4 +122,13 @@ button:hover {
 
 .Cancelamento:hover {
   color: #252e55;
+}
+
+@media (max-width: 720px) {
+  main {
+    background-color: #e0e8ff;
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 }
